@@ -1,5 +1,5 @@
-var seconds = 00;
-var tens = 00;
+var seconds = '00';
+var tens = '00';
 var OutputSeconds = document.getElementById('second')
 var OutputTens = document.getElementById('tens')
 var buttonStart = document.getElementById('btn-start')
