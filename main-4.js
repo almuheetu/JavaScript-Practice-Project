@@ -5,28 +5,6 @@ var buttonStop = document.getElementById('btn-stop')
 var buttonReset = document.getElementById('btn-reset')
 var Interval = null;
 
-// buttonStart.addEventListener('click', () => {
-//     if (Interval !== null) {
-//         clearInterval(Interval);
-//     }
-
-//     Interval = setInterval(startTime, 1000);
-// });
-
-
-// buttonStop.addEventListener('click', () => {
-//     clearInterval(Interval);
-// });
-
-// buttonReset.addEventListener('click', () => {
-//     clearInterval(Interval);
-//     minutes = "00";
-//     seconds = "00";
-//     hours = "00";
-//     OutputSeconds.innerHTML = seconds;
-//     OutputMinutes.innerHTML = minutes;
-//     OutputHours.innerHTML = hours;
-// });
 
 function startTime() {
     seconds++;
