@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Stop watch</title>
     <link rel="stylesheet" href="style-4.css">
 </head>
+
 <body>
-    
+
     <div class="container">
         <h1>JavaScript Stop watch</h1>
-        <p><span id="second">00</span>:<span id="tens">00</span></p>
-        <button id="btn-start">Start</button>
-        <button id="btn-stop">Stop</button>
-        <button id="btn-reset">Reset</button>
+        <p id="displayTime">00:00:00</p>
+        <button id="btn-start" onclick="watchStart()">Start</button>
+        <button id="btn-stop" onclick="watchStop()">Stop</button>
+        <button id="btn-reset" onclick="watchReset()">Reset</button>
     </div>
 
 
     <script src="main-4.js"></script>
 </body>
+
 </html>
