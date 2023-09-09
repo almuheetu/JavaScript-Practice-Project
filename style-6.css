@@ -1,19 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #191919;
 }
-.gallery{
+
+.gallery {
     width: 900px;
     display: flex;
     overflow-x: scroll;
 }
-.gallery div{
+
+.gallery div {
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -21,10 +23,12 @@ body{
     padding: 10px;
     flex: none;
 }
-.gallery img{
+
+.gallery img {
     width: 100%;
 
 }
-.gallery::-webkit-scrollbar{
+
+.gallery::-webkit-scrollbar {
     display: none;
 }
