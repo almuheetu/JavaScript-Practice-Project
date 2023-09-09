@@ -24,7 +24,7 @@ body {
     flex: none;
 }
 
-.gallery img {
+.gallery div img {
     width: 100%;
 
 }
