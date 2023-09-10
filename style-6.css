@@ -29,6 +29,6 @@ body {
 
 }
 
-.gallery::-webkit-scrollbar {
+.gallery::-webkit-scrollbar{
     display: none;
 }
